@@ -20,6 +20,7 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Navigation />
+      <Home/>
       <Routes>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
