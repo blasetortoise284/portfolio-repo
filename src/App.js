@@ -17,18 +17,18 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-      <Routes>
-        <Route exact path= "/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/play" element={<Play />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/responsive-redesign" element={<ResponsiveRedesign />} />
-        <Route path="/iterative-design" element={<IterativeDesign />} />
-        <Route path="/development" element={<Development />} />
-        <Route path="/personas" element={<Personas />} />
-      </Routes>
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/work" element={<Work />} />
+      <Route path="/play" element={<Play />} />
+      <Route path="/resume" element={<Resume />} />
+      <Route path="/responsive-redesign" element={<ResponsiveRedesign />} />
+      <Route path="/iterative-design" element={<IterativeDesign />} />
+      <Route path="/development" element={<Development />} />
+      <Route path="/personas" element={<Personas />} />
+    </Routes>
   );
 }
 

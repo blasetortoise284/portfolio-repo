@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import App from './App';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from './components/Navigation';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -17,13 +17,14 @@ import Development from './pages/projects/Development';
 import Personas from './pages/projects/Personas';
 import ScrollToTop from "./components/ScrollToTop";
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter>
     <ScrollToTop />
-    <Navigation />
+      <Navigation />
     <App />
     <Footer />
-  </BrowserRouter>
+    </BrowserRouter>
+  </React.StrictMode>
 );
