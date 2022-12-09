@@ -36,18 +36,18 @@ const Footer = () => {
 
                             <h1>NAVIGATION</h1>
                             <div className="anchorLinks">
-                                <LinkContainer to="about">
-                                    <Nav.Link href="#about">ABOUT</Nav.Link>
+                                <LinkContainer to="/about">
+                                    <Nav.Link href="/about">ABOUT</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to="work">
+                                <LinkContainer to="/work">
                                     <Nav.Link href="#work">WORK</Nav.Link>
                                 </LinkContainer>
 
-                                <LinkContainer to="play">
-                                    <Nav.Link href="#play">PLAY</Nav.Link>
+                                <LinkContainer to="/play">
+                                    <Nav.Link href="/play">PLAY</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to="resume">
-                                    <Nav.Link href="#resume">RESUME</Nav.Link>
+                                <LinkContainer to="/resume">
+                                    <Nav.Link href="/resume">RESUME</Nav.Link>
                                 </LinkContainer>
                             </div>
 
@@ -57,19 +57,19 @@ const Footer = () => {
 
                             <h1>CONTACT</h1>
                             <div className="anchorLinks">
-                                <LinkContainer to="about">
-                                    <Nav.Link href="#about">LINKEDIN</Nav.Link>
+                                <LinkContainer to="/about">
+                                    <Nav.Link href="/about">LINKEDIN</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to="work">
-                                    <Nav.Link href="#work">EMAIL</Nav.Link>
-                                </LinkContainer>
-
-                                <LinkContainer to="">
-                                    <Nav.Link href="#instagram">INSTAGRAM</Nav.Link>
+                                <LinkContainer to="/work">
+                                    <Nav.Link href="/work">EMAIL</Nav.Link>
                                 </LinkContainer>
 
-                                <LinkContainer to="resume">
-                                    <Nav.Link href="#resume">BEHANCE</Nav.Link>
+                                <LinkContainer to="/">
+                                    <Nav.Link href="/instagram">INSTAGRAM</Nav.Link>
+                                </LinkContainer>
+
+                                <LinkContainer to="/resume">
+                                    <Nav.Link href="/resume">BEHANCE</Nav.Link>
                                 </LinkContainer>
                             </div>
 

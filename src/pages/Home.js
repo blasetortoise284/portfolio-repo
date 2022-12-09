@@ -36,7 +36,7 @@ const customAnimation1 = keyframes`
 
 
     return (
-        <section id="Home" data-scroll-section>
+        <section id="Home">
             <div id="Introduction">
                 <Fade keyframes={customAnimation} duration="2000" triggerOnce={true}>
                     <div id="intro">
@@ -66,7 +66,7 @@ const customAnimation1 = keyframes`
                     </div>
                 </Fade>
                 <Fade delay="50" keyframes={customAnimation} duration="1800" triggerOnce={true}>
-                        <Link to="Featured" spy={true} smooth={true} duration={2600}>
+                        <Link to="Featured" spy={true} smooth={true} duration={2000}>
                         <IconButton id="toFeatured" disableRipple="true" size="large" style={{ borderRadius: "0", width: "100%", margin: "6rem 0rem 3rem 0rem" }} sx={{ "&:hover": { backgroundColor: "transparent" } }}>
                             <KeyboardArrowDownRoundedIcon style={{ fontSize: "10rem" }} />
                             </IconButton>
@@ -85,7 +85,7 @@ const customAnimation1 = keyframes`
 
                     <div className="display1">
                         <Fade triggerOnce={true} direction="left" duration="2000">
-                            <LinkContainer to="responsive-redesign">
+                            <LinkContainer to="/responsive-redesign">
                                 <div left className="displayCard">
                                     <img className="ind-img" src="../images/rr-card.png" />
                                     <div className="overlay">
@@ -101,7 +101,7 @@ const customAnimation1 = keyframes`
                         </Fade>
 
                         <Fade triggerOnce={true} direction="right" duration="2000">
-                            <LinkContainer to="iterative-design">
+                            <LinkContainer to="/iterative-design">
                                 <div className="displayCard">
                                     <img className="ind-img" src="../images/ir-4.png" />
                                     <div className="overlay">
@@ -125,7 +125,7 @@ const customAnimation1 = keyframes`
 
                     <div className="display2">
                         <Fade triggerOnce={true} direction="left" duration="2000">
-                            <LinkContainer to="personas">
+                            <LinkContainer to="/personas">
                                 <div className="displayCard">
                                     <img src="../images/pp.png" />
                                     <div className="overlay">
@@ -143,7 +143,7 @@ const customAnimation1 = keyframes`
                             </LinkContainer>
                         </Fade>
                         <Fade triggerOnce={true} direction="right" duration="2000">
-                            <LinkContainer to="development">
+                            <LinkContainer to="/development">
                                 <div className="displayCard">
                                     <img src="../images/dev.png" />
                                     <div className="overlay">
