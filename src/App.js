@@ -17,9 +17,6 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <BrowserRouter>
-      <ScrollToTop />
-      <Navigation />
       <Routes>
         <Route exact path= "/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -32,8 +29,6 @@ function App() {
         <Route path="/development" element={<Development />} />
         <Route path="/personas" element={<Personas />} />
       </Routes>
-      <Footer />
-    </BrowserRouter>
   );
 }
 
