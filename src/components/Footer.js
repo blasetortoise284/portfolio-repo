@@ -2,7 +2,7 @@ import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap/';
 import { Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
-import { Slide, Fade } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
 
 const Footer = () => {
@@ -23,7 +23,7 @@ const Footer = () => {
             <div id="footerSect">
                 <Fade>
                     <div id="footerImg">
-                        <Link to="">
+                        <Link to="/">
                             <img src="../images/filler.png" />
                         </Link>
                         <p>thanks for stopping by 𐊮:</p>

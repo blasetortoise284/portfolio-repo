@@ -7,7 +7,7 @@ const Navigation = () => {
     return (
         <Navbar id="Nav" expand="lg" data-scroll-section>
             <Container id="navCont">
-                <LinkContainer to="">
+                <LinkContainer to="/">
                     <Navbar.Brand href="#">BLASETORTOISE284</Navbar.Brand>
                 </LinkContainer>
 
