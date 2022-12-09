@@ -6,6 +6,7 @@ import { Fade } from "react-awesome-reveal";
 import * as Scroll from 'react-scroll';
 import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import { keyframes } from "@emotion/react";
+import torontoCupcakes from 'rr-card.png'
 
 const Home = () => {
     const [greeting, setGreeting] = useState("Hey");
@@ -60,7 +61,7 @@ const customAnimation1 = keyframes`
                             </Fade>
                             
                             <div id="image">
-                                <img src="./images/filler.png" />
+                                <img src={require("./images/filler.png")} />
                             </div>
                         </div>
                     </div>
@@ -87,7 +88,7 @@ const customAnimation1 = keyframes`
                         <Fade triggerOnce={true} direction="left" duration="2000">
                             <LinkContainer to="/responsive-redesign">
                                 <div left className="displayCard">
-                                    <img className="ind-img" src="../images/rr-card.png" />
+                                    <img className="ind-img" src={require("../images/rr-card.png")} />
                                     <div className="overlay">
                                         <div className="cardBody">
                                             <h3>Toronto Cupcake</h3>
@@ -103,7 +104,7 @@ const customAnimation1 = keyframes`
                         <Fade triggerOnce={true} direction="right" duration="2000">
                             <LinkContainer to="/iterative-design">
                                 <div className="displayCard">
-                                    <img className="ind-img" src="../images/ir-4.png" />
+                                    <img className="ind-img" src={require("../images/ir-4.png")} />
                                     <div className="overlay">
                                         <div className="cardBody">
                                             <h3>Slingshot Mobile</h3>
@@ -127,7 +128,7 @@ const customAnimation1 = keyframes`
                         <Fade triggerOnce={true} direction="left" duration="2000">
                             <LinkContainer to="/personas">
                                 <div className="displayCard">
-                                    <img src="../images/pp.png" />
+                                    <img className="ind-img" src={require("../images/pp.png")} />
                                     <div className="overlay">
                                         <div className="cardBody">
                                             <h3>MyPrint Printer Release Stations</h3>
@@ -145,7 +146,7 @@ const customAnimation1 = keyframes`
                         <Fade triggerOnce={true} direction="right" duration="2000">
                             <LinkContainer to="/development">
                                 <div className="displayCard">
-                                    <img src="../images/dev.png" />
+                                    <img className="ind-img" src={require("../images/dev.png")} />
                                     <div className="overlay">
                                         <div className="cardBody">
                                             <h3>My Shoe Collection as a Store</h3>
