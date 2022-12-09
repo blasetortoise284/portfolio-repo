@@ -17,7 +17,6 @@ const Footer = () => {
     transform: translate3d(0, 0, 0);
   }
 `;
-
     return (
         <Navbar id="Footer" expand="lg" data-scroll-section>
             <div id="footerSect">

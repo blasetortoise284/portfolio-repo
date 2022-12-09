@@ -1,8 +1,6 @@
 import { Carousel } from 'react-bootstrap';
 
 function UncontrolledExample() {
-
-
     return (
         <Carousel>
             <Carousel.Item className="carouselCardBg">
